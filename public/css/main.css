@@ -1,0 +1,30 @@
+.icon>i.fab {
+  font-size: 5rem;
+  color: chartreuse;
+  /* background-color: brown; */
+}
+
+.ul-list>li {
+  display: flex;
+  flex-direction: column;
+}
+
+li.item {
+  display: flex;
+  padding: 6px 10px;
+}
+
+.item-link {
+  flex: 0 1 220px;
+}
+
+.item-desc {
+  flex: 0 1;
+  padding: 0 12px;
+}
+.item-example {
+  padding-left: 24px;
+  flex: 1 1 220px;
+  font-size: .95rem;
+  color: rgba(74, 74, 74,.85);
+}

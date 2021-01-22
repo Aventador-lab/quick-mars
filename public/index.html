@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="vendor/bulma/bulma.min.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/fontawesome-free/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>demo</title>
+    <style></style>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-centered">
+            Welcome to Quick Restful API
+            <i class="fab fa-affiliatetheme"></i>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <div id="app" class="container">
+      <div class="tile is-anchor">
+        <div class="tile is-vertical is-4">
+          <article class="tile is-child notification is-success">
+            <div class="content is-success">
+              <p class="title">Service</p>
+              <p>MongoDB 4.x</p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification">
+            <p class="subtitle">API list</p>
+
+            <div class="list-container">
+              <ul>
+                <li class="item">
+                  <div class="item-link"><a href="">/api/contacts</a></div>
+                  <div class="item-desc">
+                    Get list<br />
+                    Post
+                  </div>
+                  <div class="item-example">
+                    <label for="">Post new Contact</label>
+                    <pre>
+                      <code>
+                      name:required <br>
+                      uid:required <br>
+                      nickname optional <br>
+                      gender optional <br>
+                      email optional <br>
+                    </code>
+                  </pre>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="item-link">
+                    <a href="">/api/contacts/:contact_id</a>
+                  </div>
+                  <div class="item-desc">
+                    Get One <br />
+                    Patch update one <br />
+                    put update one <br />
+                    Delete one <br />
+                  </div>
+                  <div class="item-example">
+                    <label for="">Update& Delete</label><br />
+
+                    <a
+                      href="http://127.0.0.1:3456/api/contacts/600ab2c67a495a3740023335"
+                      target="_blank"
+                    >
+                      api/contacts/600ab2c67a495a3740023335
+                    </a>
+                  </div>
+                </li>
+                <li class="item">
+                  <div><a href=""></a></div>
+                  <div class="item-desc"></div>
+                </li>
+                <li class="item">
+                  <div><a href=""></a></div>
+                  <div class="item-desc"></div>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Qmars</strong> by <a href="">Aventador-lab</a>.The source code
+          is licensed is licensed.
+          <span class="s">CC BY NC SA 4.0</span>
+        </p>
+      </div>
+    </footer>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+  </body>
+</html>
