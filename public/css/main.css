@@ -19,7 +19,7 @@ li.item {
 }
 
 .item-desc {
-  flex: 0 1;
+  flex: 0 1 120px;
   padding: 0 12px;
 }
 .item-example {
