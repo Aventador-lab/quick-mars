@@ -41,11 +41,11 @@
 
     <script>
       document.querySelector("#btn").addEventListener("click", () => {
-        if(wx && wx.miniProgram){
-          wx.miniProgram.getEnv(res=>{
-            document.querySelector("#successId").innerText = JSON.stringify(res||{"err":"no env get"});
-          })
-        }
+        // if(wx && wx.miniProgram){
+        //   wx.miniProgram.getEnv(res=>{
+        //     document.querySelector("#successId").innerText = JSON.stringify(res||{"err":"no env get"});
+        //   })
+        // }
         try {
           var ranRes = window.crypto
             .getRandomValues(new Uint32Array(32))[0]
